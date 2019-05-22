@@ -1,0 +1,21 @@
+POST http://localhost:8080/api/register
+Content-Type: application/json
+
+{
+  "userName": "ZhengDs",
+  "password": "123456"
+}
+###
+POST http://localhost:8080/api/login
+Content-Type: application/json
+
+{
+  "userName": "ZhengDs",
+  "password": "123456"
+}
+
+###
+GET http://localhost:8080/api/index
+Authorization:2fb59f728f40c5e866791a02293b36158f5bc8e24dc88107b208e11592bfc97adbf2aa8e7a0c45ac534db013c3370164
+
+###
